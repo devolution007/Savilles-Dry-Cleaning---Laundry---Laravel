@@ -151,7 +151,7 @@ class="footer bg-white md:bg-primary pt-6 pb-0 md:pt-20 md:pb-14 mt-auto {{ requ
             <div class="flex justify-end items-center px-6 mt-3  sm:px-3 sm:">
                 <span class="close-button"><i class="fa-regular fa-circle-xmark  fa-2x"></i></span>
             </div>
-            <form class="w-full bg-white rounded px-8  pb-9 mb-4" id="login">
+            <form class="w-full rounded pb-9 mb-4" id="login">
                 @csrf
                 <div class="text-center login-modal-logo">
                     <img class=" inline-block h-full text-black"
@@ -163,7 +163,7 @@ class="footer bg-white md:bg-primary pt-6 pb-0 md:pt-20 md:pb-14 mt-auto {{ requ
                 </div>
                 <div class="mb-6">
                     <input type="Password" name="password" placeholder="Password"
-                    class="font-mon form-control bg-transparent bg-gray-100" value="">
+                    class="font-mon form-control bg-gray-100" value="">
 
                 </div>
 
@@ -195,7 +195,7 @@ class="footer bg-white md:bg-primary pt-6 pb-0 md:pt-20 md:pb-14 mt-auto {{ requ
                     <span class="close-modal"><i class="fa-regular fa-circle-xmark  fa-2x"></i></span>
                 </div>
                 <div id="signupuser">
-                    <form class="w-full bg-white rounded px-8 pb-9 mb-4" id="signup" method="POST"
+                    <form class="w-full rounded pb-9 mb-4" id="signup" method="POST"
                     action="">
                     @csrf
                     <div class="text-center login-modal-logo">
@@ -212,7 +212,7 @@ class="footer bg-white md:bg-primary pt-6 pb-0 md:pt-20 md:pb-14 mt-auto {{ requ
                     </div>
                     <div class="mb-4">
                         <input type="Password" name="password" placeholder="Password"
-                        class="font-mon form-control bg-transparent bg-gray-100" id="password">
+                        class="font-mon form-control bg-gray-100" id="password">
                     </div>
                     <div class="mb-4"><span id="optsuccess" style="color:green;"></span></div>
                     <div class="mb-4"><span id="opterror" style="color:red;"></span></div>
@@ -223,7 +223,7 @@ class="footer bg-white md:bg-primary pt-6 pb-0 md:pt-20 md:pb-14 mt-auto {{ requ
                 </form>
             </div>
             <div id="verifyuser" style="display: none;">
-                <form class="w-full bg-white rounded px-8 pb-9 mb-4" id="verifyuserotp" method="POST"
+                <form class="w-full rounded pb-9 mb-4" id="verifyuserotp" method="POST"
                 action="">
                 @csrf
                 <div class="text-center">
@@ -232,7 +232,7 @@ class="footer bg-white md:bg-primary pt-6 pb-0 md:pt-20 md:pb-14 mt-auto {{ requ
                 </div>
                 <div class="mb-4">
                     <input type="text" name="otp" placeholder="OTP"
-                    class="font-mon form-control bg-transparent bg-gray-100" id="otp">
+                    class="font-mon form-control bg-gray-100" id="otp">
                 </div>
                 <div class="mb-4"><span id="optverifysuccess" style="color:green;"></span></div>
                 <div class="mb-4"><span id="optverifyerror" style="color:red;"></span></div>

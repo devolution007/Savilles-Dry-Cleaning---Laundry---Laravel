@@ -104,10 +104,10 @@
                     <button data-target="panel-2" class="tab w-full block border sm:text-m px-1 py-4 text-xxs font-semibold bg-shade rounded-xl text-center lg:text-lg md:text-sm border-0 tab-bg">Payment</button>
                 </div>
                 <div class="flex-1">
-                    <button data-target="contact-panel" class="tab w-full text-center block border py-4 sm:text-lg sm:px-0 text-[10px] px-2 font-semibold bg-shade rounded-xl lg:text-lg lg:text-bold md:text-sm border-0 tab-bg">Contact Details</button>
+                    <button data-target="contact-panel" class="tab w-full text-center block border py-4 sm:text-lg sm:px-0 text-[10px] px-1 font-semibold bg-shade rounded-xl lg:text-lg lg:text-bold md:text-sm border-0 tab-bg">Contact Details</button>
                 </div>
                 <div class="flex-1">
-                    <button data-target="my-order" class="tab w-full text-center block border py-4 sm:text-lg sm:px-0 text-[10px] px-2 font-semibold bg-shade rounded-xl lg:text-lg lg:text-bold md:text-sm border-0 tab-bg">My Orders</button>
+                    <button data-target="my-order" class="tab w-full text-center block border py-4 sm:text-lg sm:px-0 text-[10px] px-1 font-semibold bg-shade rounded-xl lg:text-lg lg:text-bold md:text-sm border-0 tab-bg">My Orders</button>
                 </div>
             </nav>
         </div>

@@ -18,16 +18,7 @@
     <div class="bg-secondary/10 pt-5 pb-3 md:pt-8 md:pb-6 lg:pt-12 lg:pb-9">
         <div class="container">
             <div class="flex flex-wrap justify-center -mx-4">
-                <div class="w-full md:w-1/3 xl:w-1/4 px-4">
-                 
-                        <div class="serv-info-icon">
-                            <img src="{{ asset('public/front/images/service-info/6.png') }}">
-                        </div>
-                        <div class="serv-info-text">
-                            <p class="serv-info-text-first-p">Free 24 Delivery</p>
-                        </div>
-                    </div> -->
-                </div>
+                
                 <div class="w-full md:w-1/3 xl:w-1/4 px-4">
                     <div class="serv-info">
                         <div class="serv-info-icon">

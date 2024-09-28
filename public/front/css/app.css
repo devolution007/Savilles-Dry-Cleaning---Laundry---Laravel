@@ -6753,13 +6753,18 @@ button:disabled {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: white;
+  /* background-color: #ffffff8a; */
   padding: 1rem 2rem;
   width: 50rem;
   border-radius: 2rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  background: rgb(255 255 255 / 37%);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(9.5px);
 }
 
 .close-button {
@@ -6817,7 +6822,7 @@ a:hover {
 }
 
 .seventy-five {
-  width: 89%;
+  width: 100%;
 }
 
 .custom-active {
@@ -6847,7 +6852,7 @@ a:hover {
 
 .error {
   color: red;
-  margin: 3px;
+  font-size: 12px;
 }
 
 /* New CSS */
