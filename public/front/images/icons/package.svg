@@ -1,0 +1,19 @@
+<svg id="vuesax_linear_box-time" data-name="vuesax/linear/box-time" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <rect id="vuesax_linear_box-time-2" data-name="vuesax/linear/box-time" width="28" height="28" fill="none"/>
+  <g id="vuesax_linear_box-time-3" data-name="vuesax/linear/box-time">
+    <g id="box-time">
+      <g id="Group" transform="translate(2.39 2)">
+        <g id="Group-2" data-name="Group" transform="translate(0.78 7.527)">
+          <path id="Vector" d="M21.6.03,10.837,5.11,0,0" transform="translate(0)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+          <path id="Vector-2" data-name="Vector" d="M0,10.972V0" transform="translate(10.837 5.111)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+        </g>
+        <path id="Vector-3" data-name="Vector" d="M23.22,8.6V15.4a.787.787,0,0,1-.012.168A4.755,4.755,0,0,0,20.067,14.4a4.856,4.856,0,0,0-3.02,1.056A4.753,4.753,0,0,0,15.234,19.2a4.682,4.682,0,0,0,.7,2.472,3.393,3.393,0,0,0,.387.54l-2.211,1.212a5.717,5.717,0,0,1-5,0L2.658,19.872A5.656,5.656,0,0,1,0,15.4V8.6A5.656,5.656,0,0,1,2.658,4.128L9.109.576a5.717,5.717,0,0,1,5,0l6.451,3.552A5.656,5.656,0,0,1,23.22,8.6Z" transform="translate(0 0)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+      </g>
+      <g id="Group-3" data-name="Group" transform="matrix(1, 0.017, -0.017, 1, 18.077, 16.551)">
+        <path id="Vector-4" data-name="Vector" d="M8.625,4.4a4.415,4.415,0,0,1-1.466,3.3,4.266,4.266,0,0,1-2.846,1.1A4.354,4.354,0,0,1,0,4.4,4.4,4.4,0,0,1,1.617.967,4.265,4.265,0,0,1,4.313,0,4.354,4.354,0,0,1,8.625,4.4Z" transform="translate(0 0)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+        <path id="Vector-5" data-name="Vector" d="M1.25,0V1.5L0,2.25" transform="translate(3.278 3.129)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+      </g>
+      <path id="Vector-6" data-name="Vector" d="M0,0H28V28H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

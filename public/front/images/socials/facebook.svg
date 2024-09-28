@@ -1,0 +1,15 @@
+<svg id="Group_7303" data-name="Group 7303" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31.225" height="35.639" viewBox="0 0 31.225 35.639">
+  <defs>
+    <filter id="Icon_awesome-facebook-f" x="1.689" y="1.585" width="26.598" height="34.054" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Path_95578" data-name="Path 95578" d="M15.612,0A15.612,15.612,0,1,1,0,15.612,15.612,15.612,0,0,1,15.612,0Z" transform="translate(0 0)" fill="#078b8a"/>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_awesome-facebook-f)">
+    <path id="Icon_awesome-facebook-f-2" data-name="Icon awesome-facebook-f" d="M9.644,9.03l.446-2.905H7.3V4.239A1.453,1.453,0,0,1,8.94,2.67h1.267V.2A15.455,15.455,0,0,0,7.958,0a3.547,3.547,0,0,0-3.8,3.911V6.125H1.609V9.03H4.161v7.023H7.3V9.03Z" transform="translate(9.08 7.59)" fill="#fff"/>
+  </g>
+</svg>

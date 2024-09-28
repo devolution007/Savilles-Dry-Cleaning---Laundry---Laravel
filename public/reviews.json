@@ -1,0 +1,411 @@
+{
+   "html_attributions" : [],
+   "result" : 
+   {
+      "address_components" : 
+      [
+         {
+            "long_name" : "17",
+            "short_name" : "17",
+            "types" : 
+            [
+               "street_number"
+            ]
+         },
+         {
+            "long_name" : "Anyards Road",
+            "short_name" : "Anyards Rd",
+            "types" : 
+            [
+               "route"
+            ]
+         },
+         {
+            "long_name" : "Cobham",
+            "short_name" : "Cobham",
+            "types" : 
+            [
+               "postal_town"
+            ]
+         },
+         {
+            "long_name" : "Surrey",
+            "short_name" : "Surrey",
+            "types" : 
+            [
+               "administrative_area_level_2",
+               "political"
+            ]
+         },
+         {
+            "long_name" : "England",
+            "short_name" : "England",
+            "types" : 
+            [
+               "administrative_area_level_1",
+               "political"
+            ]
+         },
+         {
+            "long_name" : "United Kingdom",
+            "short_name" : "GB",
+            "types" : 
+            [
+               "country",
+               "political"
+            ]
+         },
+         {
+            "long_name" : "KT11 2LW",
+            "short_name" : "KT11 2LW",
+            "types" : 
+            [
+               "postal_code"
+            ]
+         }
+      ],
+      "adr_address" : "\u003cspan class=\"street-address\"\u003e17 Anyards Road\u003c/span\u003e, \u003cspan class=\"locality\"\u003eCobham\u003c/span\u003e \u003cspan class=\"postal-code\"\u003eKT11 2LW\u003c/span\u003e, \u003cspan class=\"country-name\"\u003eUK\u003c/span\u003e",
+      "business_status" : "OPERATIONAL",
+      "current_opening_hours" : 
+      {
+         "open_now" : false,
+         "periods" : 
+         [
+            {
+               "close" : 
+               {
+                  "date" : "2024-02-12",
+                  "day" : 1,
+                  "time" : "1700"
+               },
+               "open" : 
+               {
+                  "date" : "2024-02-12",
+                  "day" : 1,
+                  "time" : "0900"
+               }
+            },
+            {
+               "close" : 
+               {
+                  "date" : "2024-02-13",
+                  "day" : 2,
+                  "time" : "1700"
+               },
+               "open" : 
+               {
+                  "date" : "2024-02-13",
+                  "day" : 2,
+                  "time" : "0900"
+               }
+            },
+            {
+               "close" : 
+               {
+                  "date" : "2024-02-07",
+                  "day" : 3,
+                  "time" : "1700"
+               },
+               "open" : 
+               {
+                  "date" : "2024-02-07",
+                  "day" : 3,
+                  "time" : "0900"
+               }
+            },
+            {
+               "close" : 
+               {
+                  "date" : "2024-02-08",
+                  "day" : 4,
+                  "time" : "1700"
+               },
+               "open" : 
+               {
+                  "date" : "2024-02-08",
+                  "day" : 4,
+                  "time" : "0900"
+               }
+            },
+            {
+               "close" : 
+               {
+                  "date" : "2024-02-09",
+                  "day" : 5,
+                  "time" : "1700"
+               },
+               "open" : 
+               {
+                  "date" : "2024-02-09",
+                  "day" : 5,
+                  "time" : "0900"
+               }
+            },
+            {
+               "close" : 
+               {
+                  "date" : "2024-02-10",
+                  "day" : 6,
+                  "time" : "1630"
+               },
+               "open" : 
+               {
+                  "date" : "2024-02-10",
+                  "day" : 6,
+                  "time" : "1000"
+               }
+            }
+         ],
+         "weekday_text" : 
+         [
+            "Monday: 9:00 AM – 5:00 PM",
+            "Tuesday: 9:00 AM – 5:00 PM",
+            "Wednesday: 9:00 AM – 5:00 PM",
+            "Thursday: 9:00 AM – 5:00 PM",
+            "Friday: 9:00 AM – 5:00 PM",
+            "Saturday: 10:00 AM – 4:30 PM",
+            "Sunday: Closed"
+         ]
+      },
+      "formatted_address" : "17 Anyards Rd, Cobham KT11 2LW, UK",
+      "formatted_phone_number" : "01932 863248",
+      "geometry" : 
+      {
+         "location" : 
+         {
+            "lat" : 51.330633,
+            "lng" : -0.4112095
+         },
+         "viewport" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 51.3320432302915,
+               "lng" : -0.409833319708498
+            },
+            "southwest" : 
+            {
+               "lat" : 51.3293452697085,
+               "lng" : -0.412531280291502
+            }
+         }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color" : "#7B9EB0",
+      "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "international_phone_number" : "+44 1932 863248",
+      "name" : "Savilles Dry Cleaners Cobham",
+      "opening_hours" : 
+      {
+         "open_now" : false,
+         "periods" : 
+         [
+            {
+               "close" : 
+               {
+                  "day" : 1,
+                  "time" : "1700"
+               },
+               "open" : 
+               {
+                  "day" : 1,
+                  "time" : "0900"
+               }
+            },
+            {
+               "close" : 
+               {
+                  "day" : 2,
+                  "time" : "1700"
+               },
+               "open" : 
+               {
+                  "day" : 2,
+                  "time" : "0900"
+               }
+            },
+            {
+               "close" : 
+               {
+                  "day" : 3,
+                  "time" : "1700"
+               },
+               "open" : 
+               {
+                  "day" : 3,
+                  "time" : "0900"
+               }
+            },
+            {
+               "close" : 
+               {
+                  "day" : 4,
+                  "time" : "1700"
+               },
+               "open" : 
+               {
+                  "day" : 4,
+                  "time" : "0900"
+               }
+            },
+            {
+               "close" : 
+               {
+                  "day" : 5,
+                  "time" : "1700"
+               },
+               "open" : 
+               {
+                  "day" : 5,
+                  "time" : "0900"
+               }
+            },
+            {
+               "close" : 
+               {
+                  "day" : 6,
+                  "time" : "1630"
+               },
+               "open" : 
+               {
+                  "day" : 6,
+                  "time" : "1000"
+               }
+            }
+         ],
+         "weekday_text" : 
+         [
+            "Monday: 9:00 AM – 5:00 PM",
+            "Tuesday: 9:00 AM – 5:00 PM",
+            "Wednesday: 9:00 AM – 5:00 PM",
+            "Thursday: 9:00 AM – 5:00 PM",
+            "Friday: 9:00 AM – 5:00 PM",
+            "Saturday: 10:00 AM – 4:30 PM",
+            "Sunday: Closed"
+         ]
+      },
+      "photos" : 
+      [
+         {
+            "height" : 3719,
+            "html_attributions" : 
+            [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/110374548458648430583\"\u003eMark Haines\u003c/a\u003e"
+            ],
+            "photo_reference" : "AWU5eFiy85GtsV_4APdlfkkwny2-aSREBhQ89VLjPTNMLSq9ci6qxLxuUQK0Bqzm-82BgZN1mSZo8wo57_tbip71t8Kuuq1SX6BxlgTGCt-uOSOeUtLGz7g6td0E4RAzepUyRUSG5kIYz772lOM51gT_q7GSkXQNM29bg0YiX82ShV1EFPgL",
+            "width" : 2610
+         },
+         {
+            "height" : 2000,
+            "html_attributions" : 
+            [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/110669435563677227688\"\u003eSavilles Dry Cleaners Cobham\u003c/a\u003e"
+            ],
+            "photo_reference" : "AWU5eFioEy6s8L9iXJkLZ8twbnglZuZ09orkfWCLjLibCGmfOzgah4d3zxUel1AEZZBzX2C4DK9K9ggkZ2zFtELP3QPVRQugHGwqAfYeKEKyyNEAoryeecm5wqg4Qv3SxAWf1XpyBBXzgKmouFUOJjjYuf6qnJtAuymQ5UYaxqlwsVXoQMZJ",
+            "width" : 3200
+         },
+         {
+            "height" : 9933,
+            "html_attributions" : 
+            [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/110669435563677227688\"\u003eSavilles Dry Cleaners Cobham\u003c/a\u003e"
+            ],
+            "photo_reference" : "AWU5eFiblgUlHaBvaTeJyz5h7MNnTZ243qFJmkFV5mrR36rb2tkpa-8wRsex50znbUnqC0fFcSSUaNxtw_krpsgD4rwGxA7AHgohTr4xBns4Ezs_WN9aRS93MM4HKUgPSQDIyDj6c2HkFoN_vX-PYEUdicLrz4nC2o0IVsJgKTaiE80Gn4IV",
+            "width" : 7016
+         },
+         {
+            "height" : 9933,
+            "html_attributions" : 
+            [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/110669435563677227688\"\u003eSavilles Dry Cleaners Cobham\u003c/a\u003e"
+            ],
+            "photo_reference" : "AWU5eFggE4X_v87cs-94m8rwCbIQEzlgAvhlDKXRvOF468tCQgPixFkSAlwyu9VplBfv-rOHNOLqI-ar-YaNth5_e6bzA4uPuKIK1geVhv7Nt4YIvVgFOgB-WdmGH-18wahFNX0jCqDRIkZefkDGtwUCwghtpIqI89rhO8E3W55Xu9niMuZd",
+            "width" : 7016
+         }
+      ],
+      "place_id" : "ChIJO1V8IJrfdUgRcMtbDvagFcg",
+      "plus_code" : 
+      {
+         "compound_code" : "8HJQ+7G Cobham, UK",
+         "global_code" : "9C3X8HJQ+7G"
+      },
+      "rating" : 4.8,
+      "reference" : "ChIJO1V8IJrfdUgRcMtbDvagFcg",
+      "reviews" : 
+      [
+         {
+            "author_name" : "Stephanie",
+            "author_url" : "https://www.google.com/maps/contrib/113308930132384891390/reviews",
+            "language" : "en",
+            "original_language" : "en",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/a/ACg8ocJ5roPdwt8MRv_CXFBW3dRR-IrUovvLlAuMe1tHDH-8=s128-c0x00000000-cc-rp-mo",
+            "rating" : 5,
+            "relative_time_description" : "5 months ago",
+            "text" : "The LOVELIEST staff!\n\nI had a dress ‘emergency’ with super short notice and the incredible staff at Savilles went above and beyond to help me out - resolved within the day!\n\nWould always recommend this place for anyone who is looking for dry cleaning or tailoring. I will continue to be their loyal customer :) 5 stars all the way!",
+            "time" : 1693929048,
+            "translated" : false
+         },
+         {
+            "author_name" : "Jamie Forbes-Wilson",
+            "author_url" : "https://www.google.com/maps/contrib/103459436867921647547/reviews",
+            "language" : "en",
+            "original_language" : "en",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/a/ACg8ocJWXu-hQrtFNaxfCZ-6KAu1aS3TsClhREG1xlPgakNT=s128-c0x00000000-cc-rp-mo",
+            "rating" : 5,
+            "relative_time_description" : "in the last week",
+            "text" : "I’ve been a customer for years and have always been delighted by the friendly team at the shop and the excellent care they take in looking after my family’s clothes",
+            "time" : 1706958940,
+            "translated" : false
+         },
+         {
+            "author_name" : "E Richmond",
+            "author_url" : "https://www.google.com/maps/contrib/108583631776745561715/reviews",
+            "language" : "en",
+            "original_language" : "en",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/a/ACg8ocKjD739X6rBIkIGfzCzFzT8YGP7Qw7kCZEaRw5hSpNWWw=s128-c0x00000000-cc-rp-mo",
+            "rating" : 5,
+            "relative_time_description" : "4 months ago",
+            "text" : "Wonderful service - I had a super king tipper that my cat had wee’d on and it smelt… they first tried dry cleaning and then washing as smell remained - it’s fantastic! Picked up in a useful duvet carry case which the said cat is very excited by now it’s empty and spending a lot of time in it - hopefully won’t pee on my bed again now he’s got somewhere more fun to hand out! 😂",
+            "time" : 1696720982,
+            "translated" : false
+         },
+         {
+            "author_name" : "Matthew Uden",
+            "author_url" : "https://www.google.com/maps/contrib/101599560248968565404/reviews",
+            "language" : "en",
+            "original_language" : "en",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/a-/ALV-UjWmBQVfrQ2WnDQ3AmrsRTGDkneicsSASpYOGGGWQsg9adk3=s128-c0x00000000-cc-rp-mo",
+            "rating" : 5,
+            "relative_time_description" : "a month ago",
+            "text" : "The best dry cleaners there is! Fantastic service, always with a smile. Quality of service is key and they have that in abundance. Matthew Uden",
+            "time" : 1702738085,
+            "translated" : false
+         },
+         {
+            "author_name" : "Bertie Duncan",
+            "author_url" : "https://www.google.com/maps/contrib/103770939168057978498/reviews",
+            "language" : "en",
+            "original_language" : "en",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/a-/ALV-UjXPqaZceVjrkp6E1cUdyaCgRMze4so4gccY1X7Oy37HClg=s128-c0x00000000-cc-rp-mo-ba4",
+            "rating" : 5,
+            "relative_time_description" : "a year ago",
+            "text" : "The best dry cleaners and tailoring/alteration service I've come across in my life. I've now taken over 10 pairs of trousers in to be altered as well as regular dry cleaning. The prices are incredibly reasonable, especially given the quality of the service (which is excellent), and my clothes have never looked better. I will always recommend Savilles over and above every single other place in the area. If you're unsure of where to go, go here!",
+            "time" : 1675463025,
+            "translated" : false
+         }
+      ],
+      "types" : 
+      [
+         "laundry",
+         "point_of_interest",
+         "establishment"
+      ],
+      "url" : "https://maps.google.com/?cid=14417606760759806832",
+      "user_ratings_total" : 24,
+      "utc_offset" : 0,
+      "vicinity" : "17 Anyards Road, Cobham",
+      "website" : "http://www.savillesdrycleaners.co.uk/",
+      "wheelchair_accessible_entrance" : true
+   },
+   "status" : "OK"
+}
