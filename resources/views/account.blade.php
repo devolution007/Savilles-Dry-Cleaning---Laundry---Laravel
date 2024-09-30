@@ -87,7 +87,7 @@
                             <input type="password" id="confirm_password" name="confirm_password" class="font-semibold bg-shade w-full px-4 py-3 rounded-lg shadow-sm focus:outline-none focus:shadow-outline border-gray-200" placeholder="Re-Type New Password" />
                         </div>
                         <div class="flex items-center justify-center">
-                            <button type="submit" class=" w-1\/2 btn btn-secondary capatilize ">Update Password</button>
+                            <button type="submit" class=" w-1\/2 btn-custom btn-secondary capatilize ">Update Password</button>
                         </div>
                         <div class="justify-center message text-center mt-3"></div>
 
@@ -104,7 +104,8 @@
                     <button data-target="panel-2" class="tab w-full block border sm:text-m px-1 py-4 text-xxs font-semibold bg-shade rounded-xl text-center lg:text-lg md:text-sm border-0 tab-bg">Payment</button>
                 </div>
                 <div class="flex-1">
-                    <button data-target="contact-panel" class="tab w-full text-center block border py-4 sm:text-lg sm:px-0 text-[10px] px-1 font-semibold bg-shade rounded-xl lg:text-lg lg:text-bold md:text-sm border-0 tab-bg">Contact Details</button>
+                    <button data-target="contact-panel" class="tab w-full text-center block border py-4 sm:text-lg sm:px-0 text-[10px] 
+                    font-semibold bg-shade rounded-xl lg:text-lg lg:text-bold md:text-sm border-0 tab-bg">Contact Details</button>
                 </div>
                 <div class="flex-1">
                     <button data-target="my-order" class="tab w-full text-center block border py-4 sm:text-lg sm:px-0 text-[10px] px-1 font-semibold bg-shade rounded-xl lg:text-lg lg:text-bold md:text-sm border-0 tab-bg">My Orders</button>
@@ -205,7 +206,7 @@
                 <p class="text-xs md:text-lg font-semibold">You Don't Have Any Payment Methods Yet</p>
                 @else
                 <div class="w-full border border-0 rounded-xl payment-box flex items-center py-6 px-5">
-                    <div class="flex w-1/2 justify-around items-center">
+                    <div class="flex w-1 justify-around items-center">
                         <div class="mr-5"> <input type="checkbox" checked class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"></div>
                         <!-- <div> <img class="h-5 md:h-8" src="{{ asset('public/front/images/pay/payment.png') }}"></div> -->
                         <p class="ml-5 font-semibold"> XXXX XXXX XXXX {{$cardNumber->last4 ?? null }}</p>
@@ -259,7 +260,7 @@
                         <input type="email" name="email" id="email" class="font-semibold bg-shade w-full px-4 py-4 rounded-lg shadow-sm focus:outline-none focus:shadow-outline border-gray-200" placeholder="Email" value="{{auth()->user()->email ?? null}}" />
                     </div>
                     <div class="flex justify-center">
-                        <div class="flex w-1/2 border br-30 mt-5 bg-primary justify-center text-white"><button type="submit" class="px-10 border-0 outline-0 py-3">Save Contact</button></div>
+                        <div class="flex w-full border br-30 mt-5 bg-primary justify-center text-white"><button type="submit" class="px-10 border-0 outline-0 py-3">Save Contact</button></div>
                     </div>
                     <div class="justify-center message text-center mt-3"></div>
                 </form>

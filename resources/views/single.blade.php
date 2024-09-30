@@ -162,7 +162,7 @@
 
     <div class="md:hidden">
         <div class="floating-menu">
-            <a href="{{ route('checkout') }}" class="btn btn-secondary hover:scale-110">
+            <a href="{{ route('checkout') }}" class="btn-custom btn-secondary hover:scale-110">
                 <img src="{{ asset('public/front/images/icons/logo-button.svg') }}" class="inline-block w-4 lg:w-11 mr-2">
                 <span>Schedule Your Pickup</span>
             </a>

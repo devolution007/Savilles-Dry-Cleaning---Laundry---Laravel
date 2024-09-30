@@ -41,7 +41,7 @@
                     @include('inc.navLinks')
                 </div>
                 <div class="flex-initial ml-auto px-2 sm:px-4">
-                    <div class="flex flex-wrap items-center ml-auto nav-buttons">
+                    <div class="flex flex-wrap items-center ml-auto nav-buttons justify-end">
                         @if (!auth()->check())
                         <div class="md:pl-6">
                             <a
@@ -101,7 +101,7 @@ class="footer bg-white md:bg-primary pt-6 pb-0 md:pt-20 md:pb-14 mt-auto {{ requ
             <img class="w-auto max-h-8" alt="Savilles Icon" src="{{ asset('public/front/images/logo.png') }}">
         </div>
         <div class="flex flex-wrap -mx-4">
-            <div class="flex-initial w-1/2 md:w-2/5 lg:w-4/12 px-4 mb-6 md:mb-0">
+            <div class="flex-initial w-full md:w-2/5 lg:w-4/12 px-4 mb-6 md:mb-0">
                 <div class="footer-info">
                     <div class="footer-logo mb-3 hidden md:block">
                         <img class="w-auto max-h-14" alt="Savilles Icon"
@@ -118,7 +118,7 @@ class="footer bg-white md:bg-primary pt-6 pb-0 md:pt-20 md:pb-14 mt-auto {{ requ
                 </div>
             </div>
             @foreach (sitemaps() as $category)
-            <div class="flex-initial w-1/2 md:w-1/5 ml-auto px-4 mb-6 md:mb-0">
+            <div class="flex-initial w-full md:w-1/5 ml-auto px-4 mb-6 md:mb-0">
                 <div class="footer-widget">
                     <h4>{{ $category->catagory_name }}</h4>
                     <ul>
