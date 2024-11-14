@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Section;
+use App\Models\Area;
 use Illuminate\Support\Facades\Route;
 
 class HomeController extends Controller
@@ -40,6 +41,23 @@ class HomeController extends Controller
         $reviews = array();
         
         return view('index',compact('sections','reviews'));
+    }
+    
+    public function areas()
+    {
+        $areas = Area::orderBy('area')->get();
+        return view('areas', [
+            'areas' => $areas
+        ]);
+    }
+    
+    public function area_detail($slug)
+    {
+        $area = Area::where('slug',$slug)->first();
+        if(!$area){
+            abort(404);
+        }
+        return view('area_detail',compact('area'));
     }
 
     function getReviews($option) {

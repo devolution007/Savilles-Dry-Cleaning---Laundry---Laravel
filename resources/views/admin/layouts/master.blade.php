@@ -157,6 +157,22 @@
                         </li>
 
                         <li class="nav-item">
+                            <a class="nav-link menu-link {{ request()->is('admin/areas*') ? 'active' : '' }}" href="#sidebarAreas" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarApps">
+                                <i class="ri-map-pin-2-line"></i> <span data-key="t-apps">Areas</span>
+                            </a>
+                            <div class="collapse menu-dropdown" id="sidebarAreas">
+                                <ul class="nav nav-sm flex-column">
+                                    <li class="nav-item">
+                                        <a href="{{ route('admin.areas.index') }}" class="nav-link {{ request()->is('admin/areas') ? 'active' : '' }}" data-key="t-calendar"> List Areas </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ route('admin.areas.create') }}" class="nav-link {{ request()->is('admin/areas/create') ? 'active' : '' }}" data-key="t-chat"> Add Area </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        
+                        <li class="nav-item">
                             <a class="nav-link menu-link {{ request()->is('admin/users*') ? 'active' : '' }}" href="#sidebarApps" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarApps">
                                 <i class="ri-account-circle-line"></i> <span data-key="t-apps">Users</span>
                             </a>
@@ -296,10 +312,25 @@
                                 </ul>
                             </div>
                         </li>
-
-
-
-
+                        
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="{{route('admin.order.print.today')}}">
+                                <i class="ri-file-list-fill"></i> 
+                                <span data-key="t-apps">Print Order</span>
+                            </a>
+                        </li>
+                        <!--<li class="nav-item">-->
+                        <!--    <form action="{{route('admin.print.order')}}" method="POST" id="printOrderForm">-->
+                        <!--        @csrf-->
+                        <!--        <input type="date" hidden name="date" value="{{date('Y-m-d',strtotime('+1 day'))}}" />-->
+                        <!--        <input type="text" hidden name="status" value="uncompleted" />-->
+                        <!--        <a class="nav-link menu-link" href="#" onclick="document.getElementById('printOrderForm').submit(); return false;">-->
+                        <!--            <i class="ri-file-list-fill"></i> -->
+                        <!--            <span data-key="t-apps">Print Order</span>-->
+                        <!--        </a>-->
+                        <!--    </form>-->
+                        <!--</li>-->
+                        
                     </ul>
                 </div>
                 <!-- Sidebar -->

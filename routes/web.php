@@ -92,6 +92,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
 
         Route::get('/orders', [Admin\OrderController::class, 'allOrders'])->name('orders');
         Route::get('/orders/today', [Admin\OrderController::class, 'todayOrders'])->name('order.today');
+        Route::get('/orders/print-today', [Admin\OrderController::class, 'printTodayOrders'])->name('order.print.today');
         Route::get('/orders/ongoing-order', [Admin\OrderController::class, 'onGoingOrders'])->name('order.ongoing');
         Route::get('/orders/ont-the-way', [Admin\OrderController::class, 'onTheWayOrders'])->name('order.ontheway');
         Route::get('/orders/delivered', [Admin\OrderController::class, 'delivered'])->name('order.delivered');
@@ -145,6 +146,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
         Route::get('/setting/delete-social-icone/{id}', [Admin\SettingController::class, 'deleteSocialIcone'])->name('setting.delete_social_icone');
 
         Route::match(['get', 'post'], '/charge-order', [Admin\OrderController::class, 'chargeOrder'])->name('charge-order');
+        Route::post('/order-print', [Admin\OrderController::class, 'printOrder'])->name('print.order');
 
 
         Route::get('/pages', [Admin\PageController::class, 'index'])->name('pages.index');
@@ -160,6 +162,22 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
         Route::resource('page', Admin\PageController::class)->names('page');
 
         Route::delete('/pages/{id}', [Admin\PageController::class, 'destroy'])->name('pages.destroy');
+        
+        
+        Route::get('/areas', [Admin\AreaController::class, 'index'])->name('areas.index');
+        Route::get('/areas/create', [Admin\AreaController::class, 'create'])->name('areas.create');
+        Route::post('/areas/store', [Admin\AreaController::class, 'store'])->name('areas.store');
+        
+        Route::post('/areas/upload-image', [Admin\AreaController::class, 'uploadImage'])->name('areas.upload-image');
+
+        Route::post('/areas/upload-ckimage', [Admin\AreaController::class, 'uploadCKImage'])->name('areas.upload-ckimage');
+        
+        Route::get('/areas/{id}/edit', [Admin\AreaController::class, 'edit'])->name('areas.edit');
+        Route::put('/areas/{page}', [Admin\AreaController::class, 'update'])->name('areas.update');
+
+        Route::resource('area', Admin\AreaController::class)->names('area');
+
+        Route::delete('/areas/{id}', [Admin\AreaController::class, 'destroy'])->name('areas.destroy');
 
 
     });
@@ -184,6 +202,8 @@ Route::get('/service/{slug}', [ServiceController::class, 'show'])->name('service
 Route::get('/blog', [BlogsController::class, 'index'])->name('blog');
 Route::get('/blog/{slug}', [BlogsController::class, 'show'])->name('blog.show');
 
+Route::get('/area', [HomeController::class, 'areas'])->name('areas');
+Route::get('/area/{slug}', [HomeController::class, 'area_detail'])->name('area.show');
 
 Route::get('/order/{slug}', [OrderController::class, 'invoice'])->name('order.invoice');
 /*

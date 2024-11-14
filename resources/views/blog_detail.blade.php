@@ -14,9 +14,9 @@
                         <p class="mb-5">
                             Published on {{ date('d.m.Y', strtotime($page->created_at)) }} by Admin
                         </p>
-                        @if(!empty($page->thumbnail))
+                        <!-- @if(!empty($page->thumbnail))
                         <img src="{{ asset('public/thumbnails/'.$page->thumbnail) }}" alt="{{ $page->title }}" class="w-full object-cover" style="width: 100%; height: 450px;">
-                        @endif
+                        @endif -->
                     </div>
                 </div>
                 <div class="flex-initial w-full px-4 mb-12 md:mb-12 lg:mb-0">
