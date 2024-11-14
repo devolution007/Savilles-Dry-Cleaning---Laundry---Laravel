@@ -48,7 +48,7 @@
                     <!-- Area card with a larger width -->
                     <a href="{{route('area.show',$area->slug)}}">
                         <div class="bg-primary text-white rounded-lg shadow-lg overflow-hidden flex items-center py-2 px-3 mb-2 transition transform hover:scale-110 hover:shadow-lg duration-300 ease-in-out">
-                            <img src="{{ asset('public/front/images/icons/location.png') }}" width="20px" class="mr-2" />
+                            <img src="{{ asset('public/thumbnails/location.png') }}" width="20px" class="mr-2" />
                             <span class="text-sm">{{ $area->area }}</span>
                         </div>
                     </a>
